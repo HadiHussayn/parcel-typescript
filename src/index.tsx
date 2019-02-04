@@ -4,4 +4,4 @@ import App from './App';
 
 const id = document.querySelector("#app");
 
-ReactDOM.render(<App />, id);
+ReactDOM.render(<App />, id); 

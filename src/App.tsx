@@ -1,13 +1,21 @@
 import * as React from "react";
-import First from "./components/First";
-
+// import First from "./components/header";
+// import Footer from "./components/footer";
+// import Sidebar from "./components/sidebar";
+// import Todos from "./components/todo";
+import Form from "./components/form/form"
 
 export default () => {
   return (
-    <div>
-      <First name="This is the first Component" age='23' college="HHS" />
-      <First name="This is the second Component" />
+    <div className='todo'>
+      {/* <First /> */}
+      <div style = {{display:"flex",}}>
+      {/* <Sidebar /> */}
+      {/* <Todos /> */}
+      <Form/>
+    
+      </div>
+      {/* <Footer /> */}
     </div>
-
   );
 };

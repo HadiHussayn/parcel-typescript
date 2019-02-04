@@ -1,3 +1,52 @@
 body {
-    background: #ddd;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    background-color:gray;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+h2{
+    /* position: absolute; */
+    /* height: 100vh; */
+    color:#fff;
+    background: black;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+#sidebar{
+    background: rgb(87, 72, 72);
+    width: 8%;
+    height: 80vh;
+    line-height: 6rem;
+}
+
+#sidebar > ul {
+    padding: 0;
+    margin: 0;
+}
+#sidebar > ul> li{
+    color:#fff;
+    text-align: center;
+    list-style-type: none;
+}
+
+table, td, tr  {
+  border: 1px solid black;
+} 
+
+.form {
+display: flex;
+margin-left: 3rem
+}
+.print{
+    margin-left: 5rem
 }
